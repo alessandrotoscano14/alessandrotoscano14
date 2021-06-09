@@ -52,7 +52,19 @@
 			$text = "Benvenuto sulla pagina del bot dell'8 marzo";
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
+if($text == "data"){
+			$text = "La data è: ".date("d.m.y");
+			$parameters = array('chat_id' => $chatId, "text" => $text);
+		}
 
+		if($text == "foto"){
+			sendFoto($chatid, "foto.jpg", false, "descrizione foto", $api);
+		}
+
+		if($text == "barze"){
+			$barze[0] = "che cos'è una zebra? un cavallo evaso dal carcere";
+			$barze[1] = "colmo tuffatore? 
+			}
 		
 		
 		//aggiungo il comando di invio
