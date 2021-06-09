@@ -55,7 +55,9 @@
 if($text == "data"){
 			$text = "La data è: ".date("d.m.y");
 			$parameters = array('chat_id' => $chatId, "text" => $text);
-		}
+		
+}
+/*
 
 		if($text == "foto"){
 			sendFoto($chatid, "foto.jpg", false, "descrizione foto", $api);
@@ -66,7 +68,7 @@ if($text == "data"){
 			$barze[1] = "colmo tuffatore? 
 			}
 		
-		
+*/		
 		//aggiungo il comando di invio
 		//e lo invio
 		
